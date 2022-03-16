@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Document</title>
+</head>
+<body>
+    <form >
+      <label style=" display: block" for="provider-input">
+        Provider
+      </label>
+      <select>
+        <option value="bodhi">Bodhi</option>
+        <option value="lexus">lexus Nexus Manual</option>
+      </select>
+      <label style=" display: block" for="project-input">
+        Project
+      </label>
+      <input type="text" id="project-input" />
+      <!-- {/* Map project into select */} -->
+    
+      <label style=" display: block" for="keyword-input">
+        Keyword
+      </label>
+      <input type="text" id="keyword-input" />
+      <!-- {/* Map keywords into select */} -->
+      <label style=" display: block" for="url-textarea">
+        Enter Urls to Upload
+      </label>
+      <textarea id="url-textarea"	rows="8"cols="66" style=" resize: none"></textarea>
+      <button id="btn" >Upload</button>
+    </form>
+    <script src="extension.js"></script>
+</body>
+</html>
